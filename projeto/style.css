@@ -1,0 +1,82 @@
+body {
+    background-color: #f5e9f9; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #6a2c70; 
+    margin-top: 20px;
+}
+
+.coluna {
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    vertical-align: top;
+}
+
+h2 {
+    color: #6a2c70; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li.tarefa {
+    background-color: #edc2f9; 
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    cursor: grab;
+}
+
+li.tarefa-arrastando {
+    opacity: 0.5;
+}
+
+form#adicionar-tarefa {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6a2c70; 
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #6a2c70; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #4c1e4d; 
+}
+
+button[type="submit"]:active {
+    transform: scale(0.95); 
+}
+.coluna{
+    width: 300px;
+}
